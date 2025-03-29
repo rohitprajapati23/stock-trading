@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('wallet.png') no-repeat center center/cover; 
+    /* 'background.jpg' should be your image file */
+    
+    font-family: Arial, sans-serif;
+}
+
+.wallet-container {
+    background: rgba(155, 148, 148, 0.889); /* Glass effect */
+    border: 2px solid #4CAF50;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #0b4307;
+}
+
+button {
+    background: #0d510f;
+    border: none;
+    color: #b9a9a9;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#balance {
+    font-weight: bold;
+    color: #840404; /* Gold color for balance */
+}
+
+.transaction-history ul {
+    list-style: none;
+    padding: 0;
+}

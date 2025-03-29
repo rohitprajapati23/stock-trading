@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trade.css">
+</head>
+<body>
+    <div id="demo-trade">
+        <h2>Demo Trade</h2>
+        
+        <p><strong>Balance:</strong> $<span id="balance">10000.00</span></p>
+        
+        <label for="stock">Select Stock:</label>
+        <select id="stock">
+            <option value="BTC" data-price="85186">Bitcoin (BTC) - $85186</option>
+            <option value="ETH" data-price="1908">Ethereum (ETH) - $1908</option>
+            <option value="USDT" data-price="0.9997">Tether (USDT) - $0.9997</option>
+            <option value="BNB" data-price="640">BNB (BNB) - $640</option>
+            <option value="SOL" data-price="133">Solena (SOL) - $133</option>
+            <option value="XRP" data-price="2.22">XRP (XRP) - $2.22</option>
+            <option value="ADA" data-price="0.7364">Cardano (ADA) - $0.7364</option>
+            <option value="AVAX" data-price="20.4">Avalenche (AVAX) - $20.4</option>
+        </select>
+        
+        <label for="trade-type">Trade Type:</label>
+        <select id="trade-type">
+            <option value="buy">Buy</option>
+            <option value="sell">Sell</option>
+        </select>
+    
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1">
+        
+        <button onclick="window.location.href='canvas.html'">Execute Trade</button>
+    
+        <div id="trade-result"></div>
+
+        <a href="index.html" class="back-link">Back to Homepage</a>
+    </div>
+    <script src="trade.js"></script>
+</body>
+</html>

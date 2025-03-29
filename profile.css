@@ -1,0 +1,109 @@
+/* Light Mode (Default) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.profile-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 96%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+body.dark-mode .profile-container {
+    background: #333;
+    color: white;
+}
+
+body.dark-mode h2 {
+    text-align: center;
+    color: #e5dfdf;
+}
+
+body.dark-mode h3 {
+    margin-bottom: 10px;
+    color: #f3f2f2;
+}
+
+
+body.dark-mode .profile-section {
+    background: #444;
+    border-color: #666;
+}
+
+body.dark-mode input, 
+body.dark-mode select {
+    background: #555;
+    color: white;
+    border: 1px solid #777;
+}
+
+body.dark-mode button {
+    background: #007bff;
+    color: white;
+}
+
+body.dark-mode button:hover {
+    background: #0056b3;
+}
+
+.back-link {
+    color: rgb(125, 125, 246);
+}

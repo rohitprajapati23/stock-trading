@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+   
+}
+
+canvas {
+    border: 1px solid rgb(13, 13, 13);
+    background-color: #f8f8f8;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Buy button styles */
+button:nth-child(1) { /* Assuming Buy is the first button */
+    background-color: green;
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: darkgreen;
+}
+
+/* Sell button styles */
+button:nth-child(2) { /* Assuming Sell is the second button */
+    background-color: red;
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background-color: darkred;
+}
+
+.back-link {
+    color: rgb(111, 111, 246);
+}

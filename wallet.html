@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="wallet.css">
+</head>
+<body>
+    <div class="wallet-container">
+
+       
+        <h1>My Wallet</h1>
+        <p>Available Balance: <span id="balance">$0.00</span></p>
+
+        <div class="wallet-actions">
+            <button onclick="addFunds()">Add Funds</button>
+            <button onclick="withdrawFunds()">Withdraw</button>
+        </div>
+
+        <div class="transaction-history">
+            <h2>Transaction History</h2>
+            <ul id="history">
+                <li>No transactions yet.</li>
+            </ul>
+        </div>
+        <a href="index.html" class="back-link">Back to Homepage</a>
+    </div>
+
+    <script src="wallet.js"></script>
+</body>
+</html>
