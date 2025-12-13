@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/** 
- * copyrights 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -654,17 +639,24 @@ body.active { overflow: hidden; }
 }
 
 .trade-button {
-  display: block; /* Ensures it behaves as a block element */
-  width: fit-content;
-  margin: 10px 700px auto; /* Centers the button horizontally */
-  padding: 5px 15px; /* Adjusts button size */
-  font-size: 14px; /* Makes text smaller */
-  border-radius: 10px; /* Rounds button edges */
-  border: 1px solid #ffffff; /* Keeps border visible */
-  background: transparent; /* Keeps dark mode feel */
-  color: #ffffff; /* Ensures text is visible */
-  cursor: pointer; /* Changes cursor to pointer */
-  transition: 0.3s; /* Smooth hover effect */
+  display: block; 
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+  padding: 5px 15px;
+  font-size: 14px;
+
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.trade-button button{
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .trade-button:hover {
